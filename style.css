@@ -1,0 +1,142 @@
+* {
+	transition: all .1s ease-in;
+}
+
+.wrapper {
+	margin: 10px;
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	padding-bottom: 50px;
+	background-color: #3c4045;
+}
+
+header {
+	background-color: #4b4f56;
+	text-align: center;
+	color: #e97d81;
+}
+
+header h1 {
+	font-size: 40px;
+	font-weight: 600;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+header h3 {
+	font-size: 25px;
+	padding-bottom: 25px;
+}
+
+section {
+	/*background-color: #3c4045;*/
+}
+
+.list {
+	width: 50%;
+	margin: 0 auto;
+	font-size: 25px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+form div:nth-of-type(2n) {
+	background-color: #7a7592;
+}
+
+form div:nth-of-type(2n+1) {
+	background-color: #88839d;
+}
+
+form div {
+	padding: 15px;
+	color: white;
+	height: 35px;
+}
+
+input,
+label {
+	cursor: pointer;
+	width: 100%;
+}
+
+input[type='checkbox'] {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+	;
+}
+
+form div:hover {
+	background-color: #625e76;
+	border-bottom: 5px solid white;
+	border-top: 5px solid white;
+}
+
+
+/*input[type=checkbox]:checked + label {*/
+
+
+/*text-decoration: line-through;*/
+
+
+/*color: #a39ba8;*/
+
+
+/*}*/
+
+form div:active {
+	background: #eb7e7f;
+}
+
+div:nth-child(1) span:after {
+	content: " ( for the next lessons about CSS )";
+	color: #cacbd4;
+	font-size: 12px;
+}
+
+div:nth-child(2) span:after {
+	content: " ( for more CSS manipulations )";
+	color: #cacbd4;
+	font-size: 12px;
+}
+
+div:nth-child(3) span:after {
+	content: " ( because they are awesome )";
+	color: #cacbd4;
+	font-size: 12px;
+}
+
+div:nth-child(4) span:after {
+	content: " ( hm... they always disappear )";
+	color: #cacbd4;
+	font-size: 12px;
+}
+
+div:nth-child(6) span:after {
+	content: " ( for my friends )";
+	color: #cacbd4;
+	font-size: 12px;
+}
+
+footer {
+	/*background-color: #3c4045;*/
+	text-align: center;
+	color: #e97d81;
+}
+
+footer h3 {
+	font-size: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #4b4f56;
+	width: 50%;
+	margin: 0 auto;
+}
+
+input[type=checkbox]:checked + label {
+	text-decoration: line-through;
+	color: #a39ba8;
+}
